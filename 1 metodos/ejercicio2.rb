@@ -2,9 +2,10 @@
 # Se pide identificar el error y corregirlo.
 
 def random
-  result = [true, false].sample
-  puts result
+  [true, false].sample
 end
+
+x = random
 
 if random == true
   puts 'sí'
