@@ -12,7 +12,7 @@ def draw_line(size)
 end
 
 def draw_lines(size)
-  puts size.times{5}
+  puts size.times(5)
 end
 
 draw_line 5
