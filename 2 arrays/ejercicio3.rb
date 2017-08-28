@@ -41,10 +41,14 @@ puts promedio(a)
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
 
-def incremento(a)
-    mas1 = {:elemento => 1}
-    a = mas1 + elemento
-    puts elemento
-  end
 
-print incremento(a)
+
+def incremento(a)
+  b = []
+  a.map do |e|
+  b.push (e + 1)
+  puts b
+  end
+end
+
+puts incremento(a)
